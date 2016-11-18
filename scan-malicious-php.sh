@@ -63,7 +63,6 @@ create_short_list_file()
 	LIST_CODE_SUSPICIOUS_PATTEN="/tmp/${HOSTNAME}.suspicious_code.in_file.list"
 
 cat << EOF > ${LIST_CODE_SUSPICIOUS_PATTEN}
-shell_exec *(|base64_decode *(|edoced_46esab *(|eval *(|eval(g|eval(|eval(base64|base64_decode(eval(|passthru|shell_exec|
 shell_exec *(
 base64_decode *(
 edoced_46esab *(
